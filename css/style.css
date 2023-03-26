@@ -1,19 +1,74 @@
 
 
+/* Regole generali */
+
 body{
  padding: 0 20%;
 }
 
+h1{
+    text-align: center;
+}
+
+.container-grigio{
+    height: 100px;
+    background-color: rgba(245,245,245,255);
+    border-radius: 5px;
+    border: 1px solid rgba(228,228,228,255);
+    position: relative;
+}
+
+.quadrato-rosso-es-1{
+    height: 80px;
+    width: 80px;
+    border: 1px solid red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    transition: 2s;
+}
 
 
 
+/* Esercizio 1 */
+
+.quadrato-rosso-es-1{
+    height: 80px;
+    width: 80px;
+    border: 1px solid red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    transition: 2s;
+}
+
+.quadrato-rosso-es-1:hover{
+    background-color: red;
+
+}
 
 
+/* Esercizio 2 */
 
+.quadrato-rosso-es-2{
+    height: 80px;
+    width: 80px;
+    border: 1px solid red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    transition: 2s;
+}
 
-
-
-
+.quadrato-rosso-es-2:active{
+    width: 835px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 
 
 
