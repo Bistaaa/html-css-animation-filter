@@ -10,8 +10,16 @@ h1{
     text-align: center;
 }
 
-.container-grigio{
+.container-grigio-100px{
     height: 100px;
+    background-color: rgba(245,245,245,255);
+    border-radius: 5px;
+    border: 1px solid rgba(228,228,228,255);
+    position: relative;
+}
+
+.container-grigio-200px{
+    height: 200px;
     background-color: rgba(245,245,245,255);
     border-radius: 5px;
     border: 1px solid rgba(228,228,228,255);
@@ -55,7 +63,6 @@ h1{
 .quadrato-rosso-es-2{
     height: 80px;
     width: 80px;
-    border: 1px solid red;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -64,12 +71,108 @@ h1{
 }
 
 .quadrato-rosso-es-2:active{
-    width: 835px;
+    width: calc(100% - 20px);
     position: absolute;
     top: 10px;
     left: 10px;
 }
 
+
+/* Esercizio 3 */
+
+.quadrato-rosso-es-3{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    transition: 1s;
+}
+
+.quadrato-rosso-es-3:hover{
+    border-radius: 50%;
+}
+
+
+/* Esercizio 4 */
+
+.quadrato-rosso-es-4{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    transition: 1s;
+}
+
+.quadrato-rosso-es-4:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+/* Esercizio 5 */
+
+.quadrato-rosso-es-5{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: red;
+    transition: 1s;
+}
+
+.quadrato-rosso-es-5:hover{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.quadrato-rosso-es-5:active{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+
+
+/* Esercizio 6 */
+
+.immagine-es-6{
+    height: 180px;
+    background-size: contain;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: 2s;
+}
+
+.immagine-es-6:hover{
+    filter: grayscale(1);
+}
+
+
+
+/* Esercizio 7 */
+
+.immagine-es-7{
+    height: 180px;
+    background-size: contain;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: 2s;
+}
+
+.immagine-es-7:hover{
+    filter: blur(2px) hue-rotate(90deg);;
+}
 
 
 
